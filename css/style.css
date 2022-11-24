@@ -3,13 +3,11 @@ html {
 }
 
 
-
 *,
 *::after,
 *::before {
     box-sizing: inherit;
 }
-
 
 .our-team-soc-list {
     display: flex;
