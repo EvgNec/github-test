@@ -9,10 +9,17 @@ html {
 *::before {
     box-sizing: inherit;
 }
-* {
-    outline: 2px solid red;
+
+
+.our-team-soc-list {
+    display: flex;
+    width: 44px;
+    height: 44px;
+    margin-top: 20px;
+
 }
-div {
-    padding: 10px 10px;
-    margin: 20px;
+
+li {
+    margin-right: 10px;
+    outline: 2px solid red;
 }
