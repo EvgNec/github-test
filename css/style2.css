@@ -1,0 +1,21 @@
+#position-box {
+    position: relative;
+    z-index: 1;
+    padding: 20px 80px 20px 20px;
+    border: 1px solid #ddd;
+    color: #fff;
+    background: #4B92C0;
+    width: 400px;
+
+}
+
+#position-box:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    bottom: -40px;
+    right: -200px;
+    width: 195px;
+    height: 230px;
+    background: url('../img/the-box.png');
+}
